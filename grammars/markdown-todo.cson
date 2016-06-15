@@ -1,10 +1,13 @@
 'fileTypes': [
   'md'
 ]
-'scopeName': 'text.html.markdown.markdown-todo'
+'scopeName': 'source.gfm.markdown-todo'
 'patterns': [
   {
-    'match': '^\\s*[*-]\\s*(TODO|DOING|DONE)'
+    'match': '[*-]\\s*(TODO|DOING|DONE)'
     'captures': '1': 'name': 'markdown-todo.${1:/downcase}'
+  }
+  {
+    'include': 'source.gfm'
   }
 ]
