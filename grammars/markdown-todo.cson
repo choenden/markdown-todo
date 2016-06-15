@@ -1,0 +1,10 @@
+'fileTypes': [
+  'md'
+]
+'scopeName': 'text.html.markdown.markdown-todo'
+'patterns': [
+  {
+    'match': '^\\s*[*-]\\s*(TODO|DOING|DONE)'
+    'captures': '1': 'name': 'markdown-todo.${1:/downcase}'
+  }
+]

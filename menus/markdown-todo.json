@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle markdown-todo",
+        "command": "markdown-todo:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "markdown-todo",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "markdown-todo:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
